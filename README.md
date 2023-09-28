@@ -17,6 +17,9 @@ Para iniciar o servidor de desenvolvimento, execute `ng serve`. Depois disso, vo
 
 Crie um arquivo com a extensão `.json` (por exemplo, `dbgames.json`). Este arquivo deve conter uma constante com cinco atributos que podem ser replicados dentro do projeto.
 
+Usando o comando `ng g c restrito` criaremos mais uma dependencia do serviço proposto
+Apara criar componentes dentro da pasta foi usado o comando `ng g c restrito/atualiza-produto` `cadastra-produto` `lista-produto` `menu-produto`
+
 ## Execução do Projeto
 
 Para simular um banco de dados, instale o json-server globalmente com o comando `npm install -g json-server`. Em seguida, inicie o servidor de teste com `json-server –watch dbgames.json`. Isso criará uma porta para o seu arquivo `dbgames.json` no endereço `http://localhost:3000/produtos`.
