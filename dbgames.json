@@ -1,0 +1,25 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "produtos": "GTA V",
+      "descrição": "JOGO DE MUNDO ABERTO DA ROCKSTAR GAMES ACLAMADO PELA CRÍTICA",
+      "preço": "R$99.99"
+    },
+    {
+      "id": 1,
+      "produtos": "GOD OF WAR",
+      "descrição": "Com a vingança contra os deuses do Olimpo em um passado distante, Kratos agora vive como um mortal no reino dos deuses e monstros nórdicos. É nesse mundo duro e implacável que ele deve lutar para sobreviver... e ensinar seu filho a fazer o mesmo.",
+      "preço": "R$199.99"
+    },
+    {
+      "id": 1,
+      "produtos": "EURO TRUCK SIMULATOR 2",
+      "descrição": "Viaje pela Europa como o rei das estradas, um caminhoneiro que entrega cargas importantes por distâncias impressionantes! Com dezenas de cidades para explorar, sua resistência, habilidade e velocidade serão levadas ao limite.",
+      "preço": "R$64.99"
+    },
+    {
+      "id": 2
+    }
+  ]
+}

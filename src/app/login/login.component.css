@@ -2,7 +2,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 700px;
+    min-height: 900px;
 }
 
 #section-login{

@@ -1,6 +1,19 @@
+
+
 main{
-    min-height: 500px;
-}
+      min-height: 500px;
+      background-color: hsla(213,2%,4%,0.35);
+      background-image:
+      radial-gradient(at 40% 20%, hsla(28,75%,17%,1) 0px, transparent 50%),
+      radial-gradient(at 80% 0%, hsla(184,87%,85%,1) 0px, transparent 50%),
+      radial-gradient(at 0% 50%, hsla(240,90%,46%,1) 0px, transparent 50%),
+      radial-gradient(at 80% 50%, hsla(340,4%,13%,1) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, hsla(19,58%,17%,1) 0px, transparent 50%),
+      radial-gradient(at 63% 97%, hsla(193,60%,19%,1) 0px, transparent 50%),
+      radial-gradient(at 0% 0%, hsla(343,75%,17%,1) 0px, transparent 50%);
+  }
+  ;
+
 
 #section-banner{
     min-height: 400px;
@@ -11,9 +24,12 @@ main{
 }
 
 h2{
+  font-family: Helvetica;
     text-align: center;
-    font-size: 30px;
-    margin-top: 5px;
+    font-size: 40px;
+    margin-top: 35px;
+    color: rgb(242, 244, 247);
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .example-card {
@@ -21,16 +37,15 @@ h2{
   }
   
   .example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
     background-size: auto;
   }
   
   mat-grid-list{
-    margin: 10px 0px;
+    margin: 40px 0px;
   }
 
   mat-grid-tile{
-    padding: 2px;
+    padding: 30px;
     border-radius: 30px;
 }
 
@@ -43,6 +58,8 @@ mat-card-header{
 mat-card-actions{
     display: flex;
     justify-content: space-around;
+    justify-items: end;
+    justify-self: flex-end;
   }  
 
   mat-card-actions p{
@@ -51,8 +68,11 @@ mat-card-actions{
   }
 
   mat-card img{
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    
+
   }
 
 

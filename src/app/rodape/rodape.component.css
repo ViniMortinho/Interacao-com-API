@@ -1,7 +1,8 @@
 footer{
     background: black;
-    color: white;
+    color: rgb(230, 223, 223);
     text-align: center;
     height: 100px;
     padding-top: 30px;
+    margin-top: -10px;
 }
