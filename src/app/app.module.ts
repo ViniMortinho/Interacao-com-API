@@ -49,7 +49,7 @@ import { MenuProdutoComponent } from './restrito/menu-produto/menu-produto.compo
     MatInputModule,
     MatMenuModule,
     MatToolbarModule,
-    RestritoComponent,
+   RestritoComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
